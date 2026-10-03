@@ -11,6 +11,8 @@ Files necesary to display octoprint job and printer info on a matrix led (32x64)
     python octoprint_to_matrix.py --demo                  no OctoPrint needed
     python octoprint_to_matrix.py --port COM7 ...         skip auto-detect
 
+  On the led matrix microcontroller (matrix m4 in my case) put code.py and boot.py on the root directory, near the top of code.py you can find the tweakables section to adjust the display to you liking
+
 # OctoPrint Matrix Status
 
 ![CircuitPython](https://img.shields.io/badge/CircuitPython-Matrix%20Portal%20M4-blueviolet)
