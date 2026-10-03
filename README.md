@@ -4,6 +4,12 @@ Files necesary to display octoprint job and printer info on a matrix led (32x64)
   Ai was used in the project (GLM 5.3 - MAX)
 
 
+#To config
+  Execute the data sending file using
+    python octoprint_to_matrix.py --url http://YOUR OCTOPRINT URL --key YOUR API KEY (Has to be in the same network and/or device as the octoprint server)
+    python octoprint_to_matrix.py --demo                  no OctoPrint needed
+    python octoprint_to_matrix.py --port COM7 ...         skip auto-detect
+
 # OctoPrint Matrix Status
 
 ![CircuitPython](https://img.shields.io/badge/CircuitPython-Matrix%20Portal%20M4-blueviolet)
